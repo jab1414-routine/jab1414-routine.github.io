@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Hair Apparent Website Options</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Libre+Baskerville:ital@0;1&family=Inter:wght@400;600&display=swap">
+<style>
+/* Layout: one column; a barber-pole stripe, a short intro, then two option cards side by side (stacked on phones). */
+:root{--bg:#f3ece1;--fg:#221c17;--muted:#6b5f53;--card:#fffaf2;--line:#d9ccb8;--red:#a8262b;--navy:#1f2f52;
+--display:"Allerta Stencil",Impact,sans-serif;--serif:"Libre Baskerville",Georgia,serif;--body:Inter,system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1714;--fg:#f1e8da;--muted:#b3a593;--card:#26201b;--line:#3d342c;--red:#d2454a;--navy:#8fa6d8;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1b1714;--fg:#f1e8da;--muted:#b3a593;--card:#26201b;--line:#3d342c;--red:#d2454a;--navy:#8fa6d8;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.6;padding:0 16px 48px}
+.pole{height:10px;margin:0 -16px;background:repeating-linear-gradient(-45deg,var(--red) 0 14px,var(--card) 14px 28px,var(--navy) 28px 42px,var(--card) 42px 56px)}
+main{max-width:920px;margin:0 auto;padding-block:40px;display:grid;gap:28px}
+.k{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--red);font-weight:600;margin:0}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,7vw,56px);letter-spacing:.06em;line-height:1.05;margin:6px 0 10px;text-wrap:balance}
+.intro p{font-family:var(--serif);color:var(--muted);max-width:60ch;margin:0}
+.opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.opt{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:24px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.opt h2{font-family:var(--display);font-weight:400;letter-spacing:.06em;font-size:24px;margin:0}
+.price{font-family:var(--serif);font-size:20px;margin:0}.price small{font-family:var(--body);font-size:14px;color:var(--muted)}
+.opt ul{margin:0;padding-left:18px;color:var(--muted)}
+.btn{margin-top:auto;display:inline-block;text-align:center;background:var(--red);color:#fff;text-decoration:none;font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:13px;padding:14px 18px;border-radius:3px}
+.btn:focus-visible{outline:3px solid var(--navy);outline-offset:2px}
+.note{border-top:1px solid var(--line);padding-top:20px;color:var(--muted);font-size:15px;max-width:65ch}
+</style></head><body>
+<div class="pole"></div>
+<main>
+<div class="intro"><p class="k">Design preview · 424 Thames St · not yet live</p><h1>HAIR APPARENT</h1>
+<p>Two versions of your new website. Tap either one to look around; both work on phones. Anything on either can be changed, added or taken out.</p></div>
+<div class="opts">
+<section class="opt"><h2>BASIC SITE</h2><p class="price">$600 <small>to build, then $35/month</small></p>
+<ul><li>Photos, services, story, hours and map</li><li>Tap-to-call button</li><li>Domain, hosting and small updates included</li></ul>
+<a class="btn" href="basic.html">View the basic site</a></section>
+<section class="opt"><h2>WITH ONLINE BOOKING</h2><p class="price">$900 <small>to build, then $40/month</small></p>
+<ul><li>Everything in the basic site</li><li>Book a Chair: service, barber and time</li><li>Reminder texts, fewer no-shows</li></ul>
+<a class="btn" href="booking.html">View the booking site</a></section>
+</div>
+<p class="note">Booking in this preview is a demo: nothing is sent. Hours, phone number, services and prices will be confirmed with you before anything goes live. Prices can go up or down if you want to add or remove things.</p>
+</main>
+
+</body></html>
